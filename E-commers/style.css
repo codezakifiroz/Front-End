@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 5em;
+}
+
+.logo{
+    font-size: 50px;
+}
+
+.nav-menu a{
+    margin: 25px;
+    font-size: large;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.hero-page{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 133, 173);
+    width: 87em;
+    margin: auto;
+    height: 20em;
+    border-radius: 30px;
+    
+}
+
+.hero-img{
+    width: 23em;
+    border-radius: 10px;
+    
+}
+.hero-dec{
+    width: 30em;
+    height: 15em;
+}
+
+.hero-dec > h3{
+    font-size: 40px;
+    font-style: normal;
+
+}
+
+.hero-dec > input{
+    width: 20em;
+    height: 2.5em;
+    border-radius: 18px;
+    margin: 30px 0;
+    text-align: center;
+    border: 0;
+    
+}
+
+.categories{
+    width: 75em;
+    height: 5em;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+
+.categories a{
+    font-size: large;
+    text-decoration: none;
+  
+}
+
+.product-list{
+    margin: auto;
+    width: 75em;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.product{
+    width: 20em;
+    height: 25em;
+    margin-bottom: 40px;
+    border: 1px black solid;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: bisque;
+    box-shadow: rgb(0, 0, 0) -5px, 5px;
+
+}
+
+.product-img{
+    background-image: url(OIP.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20em;
+    border-radius: 5px;
+}
+.product > h3,h4{
+    margin: 2px;
+}
+
+.feture-product{
+    width: 75em;
+    height: 15em;
+    margin: auto;
+    display: flex;
+    background-color: rgb(255, 133, 173);
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 0 8em;
+}
+
+.feture-product img{
+    width: 32em;
+    rotate: 20deg;
+}
+
+.feture-product h3{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer{
+    margin-top: 5em;
+    background-color: rgb(44, 44, 44);
+    width: 100%;
+    height: 18em;
+    display: flex;
+}
+
+.footer-logo{
+    width: 40em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+}
+
+.footer-logo h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    color: white;
+}
+
+.footer-social{
+    display: flex;
+    justify-content: flex-start;
+    width: 8em;
+    margin: 0.5em;
+}
+
+.footer-social img{
+    margin-right: 1.5em;
+    width: 1em;
+    filter: invert(100%);
+}
+
+.footer-logo p{
+    font-size: smaller;
+}
+
+.footer-list{
+    display: flex;
+    color: white;
+    
+}
+
+.footer-list ul{
+    list-style: none;
+    margin: 5em;
+}
+
+.footer-list li{
+    margin: 5px;
+}
+
+.footer-list a{
+    text-decoration: none;
+    color: rgb(161, 161, 161);
+    margin: 5px;
+}
