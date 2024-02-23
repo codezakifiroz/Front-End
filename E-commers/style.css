@@ -209,4 +209,6 @@ footer{
 
 .contact-us{
     border: 1px red solid;
+    width: auto;
+    height: 100px;
 }
