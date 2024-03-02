@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(42, 37, 37, 0.958);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 4em;
+    padding: 0 4em;
+    border-bottom: 0.01q solid white;
+    margin-bottom: 3em;
+   
+}
+.logo{
+    margin-right: auto;
+}
+.profile-img{
+    width: 3em;
+    border-radius: 50%;
+}
+.nav-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-button{
+    background-color: white;
+    color: black;
+    width: 7em;
+    height: 2.5em;
+    border-radius: 20px;
+    margin: 8px;
+}
+
+.hero-page{
+    width: 80%;
+    height: 10em;
+    margin: auto;
+    border-left: 0.5px solid white;
+    border-right: 0.5px solid white;
+    padding: 0 30px;
+}
+
+.hero-dis > p{
+    margin: 5px;
+    font-size: smaller;
+    width: 40em;
+    
+}
+
+.hero-search{
+    display: flex;
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+}
+
+#search-bar{
+    background-color: white;
+    color: black;
+    height: 2em;
+    width: 20em;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.tag-button{
+    margin-left: 20px;
+  
+    padding: 8px;
+    border-radius: 18px;
+}
+
+.tag-button:hover{
+    background-color: rgb(25, 25, 254);
+}
+
+.articles{
+    text-align: center;
+    margin: 20px;
+}
+
+.hero-article{
+    width: 95%;
+    
+    margin: auto;
+    border-radius: 5px;
+}
+
+.hero-article > img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.hero-article > h3,p{
+    position: relative;
+}
