@@ -3,10 +3,105 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Form</title>
+    <style>
+      body {
+        width: 100vw;
+        height: 100vh;
+        background-color: antiquewhite;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      header {
+        text-align: center;
+      }
+      form {
+        width: 70em;
+        font-size: larger;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      fieldset {
+        width: 30em;
+        border-radius: 5px;
+      }
+      .form-option {
+        height: 45em;
+        display: flex;
+        flex-direction: column;
+      }
+      label {
+        margin-bottom: 10px;
+      }
+      input {
+        margin-bottom: 25px;
+        height: 2em;
+        border-radius: 5px;
+      }
+      #submit {
+        width: 100px;
+        height: 25px;
+        margin: 1em;
+      }
+      #student-type {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+      }
+      .flex {
+        display: flex;
+        flex-direction: column;
+      }
+      .radio-icon {
+        margin-top: 0;
+      }
+    </style>
   </head>
   <body>
-    <input type="text" name="" id="output" />
-    <script src="index.js"></script>
+    <header>
+      <h1>Student Registration Form</h1>
+      <h3>Please fill this form</h3>
+    </header>
+    <form action="">
+      <fieldset id="student-type">
+        <div class="flex">
+          <input type="radio" name="student" id="newStud" class="radio-icon" />
+          <label for="newStud">New Student</label>
+        </div>
+        <div class="flex">
+          <input type="radio" name="student" id="oldStud" class="radio-icon" />
+          <label for="oldStud">Old Student</label>
+        </div>
+      </fieldset>
+      <fieldset class="form-option">
+        <label for="fName">Enter your First Name</label>
+        <input type="text" name="fName" id="fName" />
+        <label for="lName">Enter your Last Name</label>
+        <input type="text" name="lName" id="lName" />
+        <label for="email">Enter your Email</label>
+        <input type="email" name="email" id="email" />
+        <label for="dob">Enter your DOB</label>
+        <input type="date" name="dob" id="dob" />
+        <label for="password">Enter your Password</label>
+        <input type="password" name="password" id="password" />
+        <label for="age">Enter your Age</label>
+        <input type="number" name="age" id="age" />
+        <label for="file">Upload a profile picture</label>
+        <input type="file" name="file" id="file" />
+        <label for="bio">Provide a bio</label>
+        <textarea
+          name="bio"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="provide your bio"
+        ></textarea>
+        <input type="submit" value="Submit" id="submit" />
+      </fieldset>
+    </form>
   </body>
 </html>
